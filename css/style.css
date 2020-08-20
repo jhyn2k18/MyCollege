@@ -1,0 +1,177 @@
+/*MOBIILE FIRST*/
+html {
+  background: #eeee;
+}
+
+body{
+  margin: 0 auto;
+  width: 100%;
+  background: white;
+}
+
+img{
+  width: 100%;
+  display: block;
+}
+
+p{
+  color: #4a525f;
+  margin: 0;
+}
+
+header{
+  position: relative;
+}
+
+main{
+}
+
+.logo{
+  display: block;
+  position: absolute;
+  top: 1%;
+  color: white;
+  font-size: 2.2em;
+  font-style: italic;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+}
+
+.now{
+  position: absolute;
+  bottom: 60%;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 1.9em;
+  font-weight: bold;
+
+
+}
+
+#apply-btn{
+  display: block;
+  position: absolute;
+  bottom: 53%;
+  font-size: 1.2em;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+
+}
+
+#apply-btn a{
+  padding: 3px 5px;
+  color: white;
+  background: #8393ca;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+
+#apply-btn a:hover{
+  background: #3e486a;
+}
+/* TOP MENU*/
+
+
+ul {
+  width: 100%;
+  padding: 0;
+  list-style: none!important;
+}
+
+li{
+  text-align: center;
+  padding: 5px;
+  background: #4a535f;
+  font-style: italic;
+  border-bottom: 2px solid white;
+}
+
+li, li a{
+  text-decoration: none;
+  color: white;
+}
+
+li:hover, li a:hover{
+  background: #393535;
+}
+
+/* TOP MENU END*/
+
+
+.row1-1{
+  width: 100%;
+  float: left;
+}
+
+
+.buttons{
+  width: 28%;
+  float: left;
+  padding-left: 2.0%;
+  padding-bottom: 1.0%;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.buttons a{
+  text-decoration: none;
+}
+
+.row1-2{
+  display: inline-block;
+  width: 100%;
+  background: #e0e0eb;
+  font-size: 1.6em;
+  text-align: center;
+  padding: 4% 0;
+}
+
+.row2{
+  background: #a864a8;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 4%;
+}
+
+.row2 img{
+  width: 40%;
+  display: inline-block;
+  padding-top:2%;
+}
+
+.row2 p{
+  font-size: 1.3em;
+  padding-top: 2%;
+  color: white;
+}
+
+.row3{
+  text-align: center;
+  width: 100%;
+}
+
+.row3-1{
+  display: inline-block;
+  width: 100%;
+  background: #e0e0eb;
+  font-size: 1.6em;
+  text-align: center;
+  padding: 4% 0;
+}
+
+.row3-2{
+  margin: none;
+}
+
+footer{
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+
+/* devices > 600px*/
